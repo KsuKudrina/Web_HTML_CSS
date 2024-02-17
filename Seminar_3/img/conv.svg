@@ -1,0 +1,21 @@
+<svg width="22.003906" height="19.399902" viewBox="0 0 22.0039 19.3999" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_10_527_dd" x="0.000000" y="0.000000" width="22.003906" height="19.399902" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="4"/>
+			<feGaussianBlur stdDeviation="1.33333"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+	</defs>
+	<g filter="url(#filter_10_527_dd)">
+		<path id="Vector" d="M16.2021 0.5C16.917 0.5 17.502 1.08496 17.502 1.80005L17.502 9.6001C17.502 10.3149 16.917 10.8999 16.2021 10.8999L5.80176 10.8999C5.08691 10.8999 4.50195 10.3149 4.50195 9.6001L4.50195 1.80005C4.50195 1.08496 5.08691 0.5 5.80176 0.5L16.2021 0.5Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round"/>
+		<path id="Vector" d="M17.502 1.7998L11.002 6.34985L4.50195 1.7998" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round" stroke-linecap="round"/>
+	</g>
+</svg>
