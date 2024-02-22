@@ -34,17 +34,18 @@ a {
 .header__right {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   gap: 20px;
 }
 
-.logo__right {
+.logo__right, .logo__menu {
   width: 20%;
 }
 
+/* 
 img {
   max-width: 100%;
-}
+} */
 
 .block__1 {
   background: rgb(241, 228, 230);
@@ -198,11 +199,52 @@ img {
   display: grid;
   grid-template: 1fr 1fr /1fr 1fr 1fr;
   gap: 10px;
+  margin: auto;
 }
 
 .catalog__content {
   background: rgb(248, 248, 248);
 }
+
+.add {
+  position: relative;
+
+}
+
+.add__to__card {
+  display: none;
+}
+
+.button__add {
+  width: 20%;
+}
+
+.add:hover {
+  .img__catalog {
+    filter: brightness(40%);
+
+  }
+
+  .add__to__card {
+    display: flex;
+    align-items: center;
+    border: 2px solid #fff;
+    background: none;
+    padding: 10px 15px;
+    left: 25%;
+    top: 45%;
+    position: absolute;
+  }
+
+  .text__card {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+  }
+}
+
 
 .description {
   display: flex;
@@ -277,7 +319,7 @@ img {
     width: 30%;
   }
 
-  .logo__right {
+  .logo__right, .logo__menu {
     width: 15%;
   }
 
@@ -338,5 +380,93 @@ img {
   .price {
     margin-top: 10px;
   }
+}
 
+@media (min-width: 320px) and (max-width: 767px) {
+  body {
+    max-width: 320px;
+    width: 100%;
+  }
+
+  .header {
+    padding: 10px 15px;
+  }
+
+  .header__left {
+    gap: 40px;
+  }
+
+  .logo__menu {
+    width: 30px;
+  }
+
+  .logo__right {
+    display: none;
+  }
+
+  .block__1 {
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .img__top {
+    display: none;
+  }
+
+  .vector {
+    width: 8px;
+  }
+
+  .top__content {
+    gap: 10px;
+    width: 80%;
+    margin-top: 10px;
+    padding: 130px 0px;
+  }
+
+  .top__title {
+    font-size: 38px;
+    margin-bottom: 20px;
+  }
+
+  .top__subtitle {
+    font-size: 20px;
+  }
+
+  .fashion {
+    font-size: 20px;
+  }
+
+  .block__2 {
+    grid-template: 1fr / 1fr;
+    gap: 15px;
+    padding: 15px 20px;
+  }
+
+  .section__content {
+    line-height: 60%;
+  }
+
+  .section4 {
+    min-height: 90px;
+  }
+
+  .sale__text {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .block3__subtitle {
+    text-align: center;
+  }
+
+  .catalog {
+    grid-template: 1fr /1fr;
+    width: 95%;
+  }
+
+  .img__catalog {
+    width: 100%;
+  }
 }
